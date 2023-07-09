@@ -1,5 +1,5 @@
 opam-version: "2.0"
-name: "app"
+name: "ocaml_fullstack"
 version: "~dev"
 synopsis: "A short synopsis"
 description: "A longer description"
@@ -26,7 +26,7 @@ depends: [
   "cmdliner" {= "1.2.0"}
   "conf-libev" {= "4-12"}
   "conf-libssl" {= "4"}
-  "conf-pkg-config" {= "2"}
+  "conf-pkg-config" {= "3"}
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.2"}
   "cstruct" {= "6.2.0"}
@@ -34,9 +34,9 @@ depends: [
   "dream" {= "1.0.0~alpha5"}
   "dream-httpaf" {= "1.0.0~alpha2"}
   "dream-pure" {= "1.0.0~alpha2"}
-  "dune" {= "3.9.0"}
-  "dune-build-info" {= "3.9.0"}
-  "dune-configurator" {= "3.9.0"}
+  "dune" {= "3.9.1"}
+  "dune-build-info" {= "3.9.1"}
+  "dune-configurator" {= "3.9.1"}
   "duration" {= "0.2.1"}
   "eqaf" {= "0.9"}
   "faraday" {= "0.8.2"}
@@ -87,6 +87,7 @@ depends: [
   "stdlib-shims" {= "0.3.0"}
   "stringext" {= "1.6.0"}
   "topkg" {= "1.0.7"}
+  "tyxml" {= "4.5.0"}
   "unstrctrd" {= "0.3"}
   "uri" {= "4.2.0"}
   "uutf" {= "1.0.3"}

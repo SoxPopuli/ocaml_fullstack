@@ -2,7 +2,7 @@
 
 (using melange 0.1)
 
-(name app)
+(name ocaml_fullstack)
 
 (generate_opam_files true)
 
@@ -18,7 +18,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name app)
+ (name ocaml_fullstack)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends 
