@@ -17,7 +17,7 @@ module App = struct
 end;;
 
 type rootObject;;
-external createRoot : Dom.element -> rootObject = "createRoot" [@@bs.module "react-dom/client"] ;;
+external createRoot : Dom.element -> rootObject = "createRoot" [@@bs.module "react-dom/client"];;
 external rootRender: rootObject -> React.element -> unit = "render" [@@bs.send];;
 
 let () =
@@ -25,7 +25,6 @@ let () =
   match ReactDOM.querySelector "#root" with
   | Some entry -> 
       let root = createRoot entry in
-      let _ = Js.log root in
       rootRender root e
   | None -> ()
 ;;

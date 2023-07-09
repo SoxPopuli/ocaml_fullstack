@@ -42,6 +42,7 @@ depends: [
   "faraday" {= "0.8.2"}
   "faraday-lwt" {= "0.8.2"}
   "faraday-lwt-unix" {= "0.8.2"}
+  "fix" {= "20230505"}
   "fmt" {= "0.9.0"}
   "graphql" {= "0.14.0"}
   "graphql-lwt" {= "0.14.0"}
@@ -57,6 +58,7 @@ depends: [
   "menhir" {= "20230608"}
   "menhirLib" {= "20230608"}
   "menhirSdk" {= "20230608"}
+  "merlin-extend" {= "0.6.1"}
   "mirage-clock" {= "4.2.0"}
   "mirage-crypto" {= "0.11.1"}
   "mirage-crypto-rng" {= "0.11.1"}
@@ -79,6 +81,9 @@ depends: [
   "psq" {= "0.2.1"}
   "ptime" {= "1.1.0"}
   "re" {= "1.10.4"}
+  "reactjs-jsx-ppx" {= "1.0.0"}
+  "reason" {= "3.9.0"}
+  "reason-react" {= "0.11.0"}
   "result" {= "1.5"}
   "rresult" {= "0.7.0"}
   "seq" {= "base"}

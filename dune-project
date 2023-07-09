@@ -26,7 +26,9 @@
    (dune (>= 3.9.0))
    (tyxml (= 4.5.0))
    (dream (= 1.0.0~alpha5))
-   (melange (= 1.0.0)))
+   (melange (= 1.0.0))
+   (reason-react (= 0.11.0))
+   (reactjs-jsx-ppx (= 1.0.0)))
  (tags
   (topics "to describe" your project)))
 
