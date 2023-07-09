@@ -1,0 +1,8 @@
+(executable
+  (public_name server)
+  (preprocess (pps tyxml-ppx))
+  (libraries 
+    common 
+    tyxml
+    dream)
+  (name server))

@@ -1,0 +1,13 @@
+(melange.emit
+  (libraries 
+    reason-react
+    common)
+  (runtime_deps
+    (glob_files static/*.html)
+    (glob_files static/*.css))
+  (preprocess 
+    (pps 
+      melange.ppx 
+      reactjs-jsx-ppx))
+  (module_systems es6)
+  (target client))
